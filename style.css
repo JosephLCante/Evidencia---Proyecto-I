@@ -1,0 +1,66 @@
+.carousel img {
+    height: 300px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover;
+}
+.carousel-item img {
+    display: block;
+    margin: 0 auto;
+}
+.product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    height: 500px;
+}
+.product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product-price {
+    font-size: 1.5rem;
+    color: #28a745;
+}
+.product-price-discount {
+    font-size: 1rem;
+    color: #dc3545;
+    text-decoration: line-through;
+}
+.offer-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+.offer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.offer-card {
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+}
+.offer-card img {
+    height: 150px;
+    object-fit: cover;
+}
+.offer-label {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.offer-price {
+    font-size: 1.2rem;
+    color: #28a745;
+}
+.offer-price-discount {
+    font-size: 0.9rem;
+    color: #dc3545;
+    text-decoration: line-through;
+}
